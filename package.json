@@ -1,29 +1,24 @@
 {
-    "name": "iol_components_antd",
-    "private": true,
-    "version": "1.0.0",
-    "type": "module",
-    "module": "dist/esm/index.js",
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "dev": "vite --host",
-        "build": "tsc && vite build",
-        "preview": "vite preview"
-    },
-    "dependencies": {
-        "antd": "^5.0.4",
-        "component-library-example": "^0.1.1",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-        "@types/node": "^18.11.11",
-        "@types/react": "^18.0.26",
-        "@types/react-dom": "^18.0.8",
-        "@vitejs/plugin-react": "^2.2.0",
-        "typescript": "^4.9.4",
-        "vite": "^3.2.3"
-    }
+  "name": "test_component_library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amiellion/test_component_library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amiellion/test_component_library/issues"
+  },
+  "homepage": "https://github.com/amiellion/test_component_library#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
 }
