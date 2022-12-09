@@ -1,5 +1,5 @@
 import React from 'react';
-
+import styles from './Button.module.css';
 
 export interface ButtonProps {
     label: string;
@@ -7,7 +7,7 @@ export interface ButtonProps {
 
 
 const Button = (props: ButtonProps) => {
-    return <button>{props.label}</button>;
+    return <button className={styles["button"]}>{props.label}</button>;
 };
 
 export default Button;
